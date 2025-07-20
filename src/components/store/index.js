@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { ticketReducers } from "./ticketReducer";
+import { studentReducer } from "./studentReducer";
 
 export const store = configureStore({
     reducer:{
-        ticketShopping: ticketReducers
+        qlsv: studentReducer
     }
 });
